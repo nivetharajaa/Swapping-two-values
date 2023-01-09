@@ -18,7 +18,14 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+num1,num2=float(input()),float(input())
+temp=num1
+num1=num2
+num2=temp
+print("Swapped values are:",num1,num2)
 
+## OUTPUT:
+![swapping.png](images/swapping.png)
 
 
 ## RESULT:
